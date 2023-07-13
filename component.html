@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
+</head>
+<body>
+
+<h2>Profile Card</h2>
+<p>Building a Simple Web Component</p>
+
+<div class="container">
+  <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text">Maureen</div>
+  </div>
+</div>
+  
+</body>
+</html>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+  <img src="image\Maureen.png" alt="Mau" style="width:100%">
+  <h1>Maureen</h1>
+  <p class="title">Socia Media Manager & Virtual Assistant</p>
+  <p>BYU Idaho</p>
+  <a href="#"><i class="fa fa-dribbble"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <p><button>Contact</button></p>
+
+<!-- Side navigation -->
+<div class="sidenav">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+  
+  <!-- Page content -->
+  <div class="main">
+    ...
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="image\toonmecom_6c8260.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <h1>Maureen</h1>
+        <p>Programmer and Web Designer</p>
+        <p>I would LOVE to assist you</p>
+      </div>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+    <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The sidebar -->
+<div class="sidebar">
+  <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+  <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
+  <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+</div>
+<div class="row">
+    <div class="column">
+      <img src="image\wedding-invitation.png">
+      <img src="image\rocks.png">
+      <img src="image\falls.png">
+      <img src="image\paris.png">
+      <img src="image\nature.png">
+      <img src="image\mist.png">
+      <img src="image\paris (1).png">
+    </div>
+    <div class="column">
+      <img src="image\underwater.png">
+      <img src="image\ocean.png">
+      <img src="image\wedding.png">
+      <img src="image\mountainskies.png">
+      <img src="image\mountain.png">
+      <img src="image\underwater (1).png">
+    </div>
+    <div class="column">
+      <img src="image\wedding-invitation.png">
+      <img src="image\rocks.png">
+      <img src="image\falls.png">
+      <img src="image\paris.png">
+      <img src="image\nature.png">
+      <img src="image\mist.png">
+      <img src="image\paris (1).png">
+    </div>
+    <div class="column">
+      <img src="image\underwater.png">
+      <img src="image\ocean.png">
+      <img src="image\wedding.png">
+      <img src="image\mountainskies.png">
+      <img src="image\mountain.png">
+      <img src="image\underwater (1).png">
+    </div>
+  </div>
+  <a href="#" class="previous">&laquo; Previous</a>
+<a href="#" class="next">Next &raquo;</a>
+
+<a href="#" class="previous round">&#8249;</a>
+<a href="#" class="next round">&#8250;</a>
+
+<style>
+    .parallax {
+      /* The image used */
+      background-image: url("img_parallax.jpg");
+    
+      /* Set a specific height */
+      min-height: 500px;
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+    
+    <!-- Container element -->
+    <div class="parallax"></div>
+  </div>
+</div>
+</body>
+</html>
